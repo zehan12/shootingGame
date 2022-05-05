@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  style="text-align: center;" class="container">
+        <h1>Two Player Shooting Game</h1>
+        <h2 class="result"></h2>
+        <h3>Round: <p style="display: inline-block;" class="score"></p> </h3>
+        <h3 class="break"></h3>
+        <button onClick="window.location.reload();">Reset Game</button>
+        <div>current Player: <span id="current_player"></span> </div>
+        <div class="flex">
+            <div class="playerOne">
+                <h3>Player 1 - Won: <p style="display: inline-block;" class="p1">0</p></h3>
+                <h3>Player One health: <span class="score_1">100</span> <span class="dect"></span> </h3>
+                <h2>Player One</h2>
+                <button class="btn">Press "D" for Shoot</button>
+            </div>
+            <div class="playerTwo">
+                <h3>Player 2 - Won: <p style="display: inline-block;" class="p2">0</p></h3>
+                <h3>Player Two health: <span class="score_2">100</span> <span class="dect"></span> </h3>
+                <h2>Player Two</h2>
+                <button class="btn">Press "K" for Shoot</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
